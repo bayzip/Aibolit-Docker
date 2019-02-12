@@ -4,11 +4,7 @@ LABEL description="Docker with NGINX + FPM"
 
 ENV MYWEB /usr/share/nginx/html
 
-<<<<<<< HEAD
 RUN apk add --update php7 \
-=======
-RUN apk add php7 \
->>>>>>> b3a8e1731c1cd1477104e52d775a033bbdab7f68
     unzip \
     wget \
     curl && \
