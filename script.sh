@@ -2,4 +2,4 @@
 
 unzip /opt/aibolit.zip
 
-php ai-bolit/ai-bolit.php ${PATH}
+php ai-bolit/ai-bolit.php ${MYWEB}
