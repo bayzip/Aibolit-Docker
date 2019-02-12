@@ -4,8 +4,7 @@ LABEL description="Docker with NGINX + FPM"
 
 ENV PATH /usr/share/nginx/html
 
-RUN apk add --no-cache \
-    php7 \
+RUN apk add php7 \
     unzip \
     wget \
     curl \
