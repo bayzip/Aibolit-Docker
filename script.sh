@@ -1,5 +1,3 @@
 #!/bin/bash
-
-unzip /opt/aibolit.zip
-
-php ai-bolit/ai-bolit.php ${MYWEB}
+#unzip /opt/aibolit.zip
+php /opt/aibolit/ai-bolit.php ${MYWEB}
